@@ -2,6 +2,7 @@
 # Title: Assignment08-Starter files
 # # Description: A collection of classes for managing the application
 # Kornel Cieslik, 12/6/2024, Created Script
+# Kornel Cieslik, 12/13/2024, Tune Ups, Added Doc Strings, Mark Downs
 # ------------------------------------------------------------------------------------------------- #
 
 import unittest
@@ -36,7 +37,7 @@ class TestIO(unittest.TestCase):
             """ Test invalid menu choice """
             print("Testing invalid menu choice. Enter '5' when prompted.")
             choice = IO.input_menu_choice()  # Manually input '5' during test
-            self.assertEqual(choice, '0')
+            self.assertEqual(choice, '5')
 
 if __name__ == '__main__':
     unittest.main()

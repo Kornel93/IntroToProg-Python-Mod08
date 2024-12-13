@@ -2,6 +2,7 @@
 # Title: Assignment08-Starter files
 # # Description: A collection of classes for managing the application
 # Kornel Cieslik, 12/6/2024, Created Script
+# Kornel Cieslik, 12/13/2024, Tune Ups, Added Doc Strings, Mark Downs
 # ------------------------------------------------------------------------------------------------- #
 
 import json
